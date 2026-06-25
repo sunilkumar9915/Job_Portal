@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f4f7fc;
+}
+
+nav{
+    background:#0f172a;
+    color:white;
+    padding:15px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#38bdf8;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+nav ul li a:hover{
+    color:#38bdf8;
+}
+
+.hero{
+    background:linear-gradient(135deg,#2563eb,#38bdf8);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h1{
+    font-size:3rem;
+}
+
+.hero p{
+    margin:15px 0;
+}
+
+.search-box{
+    margin-top:20px;
+}
+
+.search-box input{
+    padding:12px;
+    width:300px;
+    border:none;
+    border-radius:30px;
+}
+
+.search-box button{
+    padding:12px 20px;
+    border:none;
+    border-radius:30px;
+    background:#0f172a;
+    color:white;
+    cursor:pointer;
+}
+
+.categories,
+.jobs,
+.companies{
+    padding:50px 8%;
+}
+
+.categories h2,
+.jobs h2,
+.companies h2{
+    text-align:center;
+    margin-bottom:25px;
+}
+
+.category-container,
+.company-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.category,
+.company{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+.job-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+}
+
+.job-card{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+.job-card h3{
+    color:#2563eb;
+}
+
+.job-card p{
+    margin:8px 0;
+}
+
+.apply-btn{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+footer{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
